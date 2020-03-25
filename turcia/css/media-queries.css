@@ -1,0 +1,165 @@
+@media(max-width: 1900px){
+	.main-flex-about{
+		margin-right: 20px;
+		margin-left: 20px;
+	}
+}
+
+@media(max-width: 1452px){
+	.text-block{
+		width: auto;
+		font-size: 30px;
+	}
+}
+
+@media(max-width: 1200px){
+	.header-logo{
+		padding-right: 10px;
+	}
+
+	.head-text-first{
+		width: 300px;
+	}
+
+	.head-text-second{
+		display: none;
+	}
+
+	.universal-btn{
+		margin-right: 50px;
+	}
+
+	.main-block-flex img{
+		width: 250px;
+	}
+
+	.text-block{
+		font-size: 20px;
+	}
+
+	.column-flex-block img{
+		width: 140px;
+		height: 140px;
+	}
+
+	.headline-block-about{
+		font-size: 40px;
+	}
+
+	.headline-block-item{
+		font-size: 30px;
+	}
+
+	.video-headline-block{
+		width: auto;
+		font-size: 60px;
+		margin-left: 40px;
+	}
+
+	.head-form-block{
+		padding-top: 20px;
+	}
+}
+}
+
+@media(max-width: 992px){
+
+}
+
+@media(max-width: 768px){
+	.head-second-block{
+		font-size: 60px;
+	}
+
+	.main-block-flex img{
+		width: 200px;
+		padding: 50px;
+	}
+
+	.text-block{
+		font-size: 16px;
+
+	}
+
+	.main-flex-about img{
+		width: 100px;
+		height: 100px;
+	}
+
+	.video-headline-block{
+		font-size: 50px;
+	}
+
+	.head-form-block{
+		font-size: 60px;
+	}
+
+	.text-form-block{
+		font-size: 24px;
+	}
+}
+	
+@media(max-width: 576px){
+	.header{
+		height: 100%;
+		padding-bottom: 50px;
+		background-position: right;
+	}
+
+	.head-text-first{
+		padding-top: 15px;
+	}
+
+	.head-second-block{
+		font-size: 40px;
+		line-height: 50px;
+		padding-top: 20px;
+	}
+
+	.main-block-flex{
+		display: block;
+		text-align: center;
+	}
+
+	.headline-block-item{
+		display: none;
+	}
+
+	.text-block-about{
+		font-size: 30px;
+	}
+
+	.main-flex-about{
+		display: block;
+	}
+
+	.main-flex-about img{
+		margin-bottom: 0px;
+	}
+
+	.video-headline-block{
+		font-size: 40px;
+	}
+
+	.about_us{
+		padding-bottom: 30px;
+	}
+
+	.form-window{
+		width: auto;
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+
+	input[id="form-name-text"]{
+		width: 300px;
+	}
+
+	input[id="form-name-tel"]{
+		width: 300px;
+	}
+
+	.second-block{
+		height: 100%;
+	}
+}

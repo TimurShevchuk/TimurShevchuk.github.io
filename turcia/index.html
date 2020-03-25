@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<link rel="stylesheet" href="css/lightbox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media-queries.css">
+	<link href="https://fonts.googleapis.com/css?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500i,700i&display=swap" rel="stylesheet">
+</head>
+	<body>
+		<header class="header">
+			<div class="head-flex-block">
+				<div class="header-logo">
+					<img src="img/joinup-logo.png">
+			 	</div>
+					<div class="head-text-first">
+						Один шаг к мечте...
+					</div>
+					<div class="head-text-second">
+						Успей забронировать сейчас
+					</div>
+						<a id="myBtn" class="universal-btn wow fadeInRight" href="#">забронировать</a>
+			</div>	
+		</header>
+		<section class="second-block">
+			<div class="head-second-block">
+				Наши лучшие предложения
+			</div>
+					<div class="main-block-flex">
+						<a href="img/akra1.jpg" data-lightbox="lbox">
+							<img src="img/Akra.png">
+						</a>
+							<a class = "none" href="img/akra2.jpg" data-lightbox="lbox"></a>
+							<a class = "none" href="img/akra3.jpg" data-lightbox="lbox"></a>
+							<a class = "none" href="img/akra4.jpg" data-lightbox="lbox"></a>
+								<a href="img/wg1.jpg" data-lightbox="box">
+									<img src="img/white-garden.png">
+								</a>
+									<a class = "none" href="img/wg2.jpg" data-lightbox="box"></a>
+									<a class = "none" href="img/wg3.jpg" data-lightbox="box"></a>
+									<a class = "none" href="img/wg4.jpg" data-lightbox="box"></a>
+					</div>
+						<div class="main-block-flex">
+							<a href="img/lp1.jpg" data-lightbox="2box">
+								<img src="img/la paloma.png">
+							</a>
+								<a class = "none" href="img/lp2.jpg" data-lightbox="2box"></a>
+								<a class = "none" href="img/lp3.jpg" data-lightbox="2box"></a>
+								<a class = "none" href="img/lp4.jpg" data-lightbox="2box"></a>
+									<a href="img/el1.jpg" data-lightbox="3box">
+										<img src="img/elegance.png">
+									</a>
+										<a class = "none" href="img/el2.jpg" data-lightbox="3box"></a>
+										<a class = "none" href="img/el3.jpg" data-lightbox="3box"></a>
+										<a class = "none" href="img/el4.jpg" data-lightbox="3box"></a>
+						</div>
+		</section>
+		<section class="about_us">
+			<div class="headline-block-about">
+				Открывай мир вместе с нами
+			</div>
+				<div class="headline-block-item">
+				20 лет на рынке туризма
+				</div>
+					<div class="text-block-about">
+					Мы предлагаем
+					</div>
+						<div class="main-flex-about">
+							<div class="column-flex-block">
+								<div class="text-block">Качественный и быстрый перелет</div>
+								<img src = "img/black-plane_icon-icons.com_72856.png">
+							</div>
+							<div class="column-flex-block">
+								<div class="text-block">Скидки парам с детьми</div>
+								<img src = "img/family-of-three_icon-icons.com_70744.png">
+							</div>
+							<div class="column-flex-block">
+								<div class="text-block">Отели с безупречным сервисом</div>
+								<img src = "img/hotel-with-three-floors_icon-icons.com_72698.png">
+							</div>
+						</div>
+		</section>
+		<section class = "video-block" data-vide-bg='img/video.mp4'>
+			<div class="video-headline-block">
+				Незабываемые экскурсии, эмоции и впечатления...
+			</div>
+		</section>
+		<section class="form-block">
+			<div class="head-form-block">
+				Оставьте заявку
+			</div>
+				<div class="text-form-block">
+					и получите самые лучшие предложения
+				</div>
+					<div class="form-window">
+						<div class="head-text-form">Заполните форму</div>
+							<div class="form_wrp">
+								<div class="form-name">
+									<div class="text-name">Ваше имя:</div>
+										<input id="form-name-text" type="text" name="lead_name" placeholder="Введите имя" required>
+									</div>
+										<div class="form-tel">
+											<div class="tel-name">Ваш телефон:</div>
+											<input id="form-name-tel" type="tel" name="lead_phone" placeholder="Введите телефон" required>
+										</div>
+											<button class="form-bt" type="submit">Записаться</button>
+										</div>
+					</div>
+		</section>
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<form class="form-consultation" method="POST">
+				<div class="form_wrp">
+					<div class="modal-headline">
+						<div class="modal-headline-item">Заполните форму</div>
+						<div class="modal-headline-item-2">для консультации</div>
+					</div>
+					<div class="form-name">
+						<div class="text-name">Ваше имя:</div>
+						<input id="form-name-text" type="text" name="lead_name" placeholder="Введите имя" required>
+					</div>
+					<div class="form-tel">
+						<div class="tel-name">Ваш телефон:</div>
+						<input id="form-name-tel" type="tel" name="lead_phone" placeholder="Введите телефон" required>
+					</div>
+					<button class="form-bt" type="submit">Записаться</button>
+				</div>
+			</form>
+		</div>
+	</div>
+		<script
+  src="https://code.jquery.com/jquery-3.4.1.min.js"
+  integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+  crossorigin="anonymous"></script>
+		<script src="js/jquery.vide.min.js"></script>
+		<script src="js/lightbox-plus-jquery.min.js"></script>
+		<script src ="js/main.js"></script>
+	</body>
+</html>	
